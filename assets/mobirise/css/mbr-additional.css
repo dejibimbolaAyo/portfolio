@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
 
 
 
@@ -430,6 +434,7 @@ h6,
 #ext_menu-t .link,
 #ext_menu-t .dropdown-item {
   color: #ffffff;
+  font-family: 'Lato', sans-serif;
 }
 #ext_menu-t .link {
   font-size: 0.75rem;
@@ -473,7 +478,14 @@ h6,
 }
 #ext_menu-t .link[aria-expanded="true"],
 #ext_menu-t .dropdown-item[aria-expanded="true"] {
-  color: #e26d31!important;
+  color: #b8312f!important;
+}
+#header1-15 .mbr-section-lead {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#header1-15 .mbr-section-title {
+  font-size: 48px;
 }
 #features7-x .card-subtitle {
   color: #bcbcbc;
